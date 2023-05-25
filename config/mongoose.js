@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //Connet to the local mongoDB
-mongoose.connect('mongodb://0.0.0.0:27017//E-commerce');
+mongoose.connect('mongodb://0.0.0.0:27017/E-commerce');
 
 //Establish the connection to the database
 const db = mongoose.connection;
@@ -14,3 +14,4 @@ db.on('error',console.error.bind(console,'connection error'));
 db.once('open',function(){
     console.log('mongobd connected!'); 
 });
+// 127.0.0.1:27017 
