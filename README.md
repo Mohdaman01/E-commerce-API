@@ -2,7 +2,7 @@
 
 # This API can Get, Add , Delete and Update the products in your local mongoDB datebase.
 
->> Setup this project on your local system :
+:> Setup this project on your local system :
   
   -> Pull the code your your system.
   
@@ -12,7 +12,7 @@
   
   That's all , the project is setup on you system.
   
- >> How to use this API :
+ :> How to use this API :
     
    -> /products : a GET request to GET all the products in the Database.
     
