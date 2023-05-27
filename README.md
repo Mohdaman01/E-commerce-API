@@ -12,16 +12,16 @@
   
   That's all , the project is setup on you system.
   
-  > How to use this API :
+ > How to use this API :
     
-    -> /products : a GET request to GET all the products in the Database.
+   -> /products : a GET request to GET all the products in the Database.
     
-    -> /products/create : a POST request to ADD a product in the Database.
+   -> /products/create : a POST request to ADD a product in the Database.
     
-    -> /products/:id : a DELETE request to REMOVE a product form the Database.
+   -> /products/:id : a DELETE request to REMOVE a product form the Database.
     
-    -> /products/:id/update_quantity/?number=no : a PATCH request to update a product in the Database.
+   -> /products/:id/update_quantity/?number=no : a PATCH request to update a product in the Database.
     
-    -> /products/:id : a GET request to GET a specific product.
+   -> /products/:id : a GET request to GET a specific product.
     
-    Here Id is product's id in the Database. 
+   Here Id is product's id in the Database. 
