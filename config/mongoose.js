@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //Connet to the local mongoDB
-mongoose.connect('mongodb://0.0.0.0:27017/E-commerce');
+mongoose.connect(process.env.MONGODB_URL);
 
 //Establish the connection to the database
 const db = mongoose.connection;
